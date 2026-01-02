@@ -20,6 +20,7 @@
 
 </head>
 
+
 <body>
 
 <!-- HEADER / HERO -->
@@ -51,10 +52,10 @@
 
     <!-- DROITE : photo + kicker -->
     <div class="hero-right">
-      <img class="about-avatar" src="images/image.jpg" alt="Photo de BRUNEL YOMBI">
+      <img class="about-avatar" src="images/moi.jpg" alt="Photo de BRUNEL YOMBI">
 
       <p class="about-kicker">
-        WELCOME TO MY WORLD — SIMPLICITY & EXPERTISE <span aria-hidden="true">🙂</span>
+        BIENVENUE DANS MON UNIVERS - SIMPLICITÉ & EXPERTISE <span aria-hidden="true">🙂</span>
       </p>
     </div>
   </div>
@@ -70,8 +71,7 @@
    <p>
       Étudiant ingénieur en informatique en 5ᵉ année à l’ENSIM,
       spécialisé en Interaction Personnes–Systèmes (IPS), je développe un profil
-      polyvalent à l’interface entre <strong>Data</strong>, <strong>logiciel</strong>,
-      <strong>systèmes</strong> et <strong>infrastructures</strong>.
+      polyvalent à l’interface entre Data, logiciel,systèmes et infrastructures.
       Cette formation couvre l’ensemble de la chaîne numérique, de la conception
       logicielle à l’exploitation des données, en passant par les systèmes,
       l’IoT et les architectures applicatives.
@@ -79,9 +79,7 @@
 
     <p>
       Au fil de mon parcours, j’ai acquis une solide compréhension du cycle de vie
-      de la donnée : <strong>collecte</strong>, <strong>ingestion</strong>,
-      <strong>transformation</strong>, <strong>analyse</strong> et
-      <strong>valorisation</strong>.
+      de la donnée : collecte, ingestion,transformation, analyse et valorisation.
       Je travaille notamment sur la conception de pipelines de données robustes,
       l’analyse exploratoire, l’automatisation de traitements, ainsi que le
       développement de solutions exploitables pour la prise de décision et
@@ -90,19 +88,15 @@
 
     <p>
       Mes projets académiques et personnels m’ont également permis d’évoluer sur
-      des problématiques transverses mêlant <strong>Data Engineering</strong>,
-      <strong>Machine Learning</strong>, <strong>DevOps</strong>,
-      <strong>développement logiciel</strong> et <strong>IoT</strong>,
+      des problématiques transverses mêlant Data Engineering, Machine Learning, DevOps, développement logiciel et IoT,
       avec une attention particulière portée à la qualité, la fiabilité et
       l’impact concret des solutions développées.
     </p>
 
     <p>
-      Actuellement, je suis à la recherche d’un <strong>stage de fin d’études de 6 mois
-        à partir de mars 2026</strong>, dans les domaines de la
-      <strong>Data</strong> (Data Engineering, Data Science, Analytics),
-      du <strong>DevOps</strong>, du <strong>développement logiciel</strong>,
-      des <strong>systèmes IT</strong> ou de l’<strong>IoT</strong>,
+      Actuellement, je suis à la recherche d’un stage de fin d’études de 6 mois
+        à partir de mars 2026, dans les domaines de la Data (Data Engineering, Data Science, Analytics),
+      du DevOps, du développement logiciel, des systèmes IT ou de l’IoT,
       au sein d’un environnement technique stimulant et orienté innovation.
     </p>
   </div>
@@ -746,13 +740,13 @@
     <p>Email : brunelyombi@email.com</p>
 
     <div class="contact-split">
-      <form class="contact-form">
-        <input type="text" placeholder="Votre nom" required>
-        <input type="email" placeholder="Votre email" required>
-        <textarea rows="5" placeholder="Votre message" required></textarea>
+      <form class="contact-form" id="contact-form">
+        <input type="text" name="name" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
         <button type="submit" class="btn">Envoyer</button>
       </form>
-
+      
       <div class="contact-cards">
         <div class="c-item"><i class="fa-solid fa-envelope"></i> <span>brunelyombi@email.com</span></div>
         <div class="c-item"><i class="fa-brands fa-linkedin"></i> <span>Ton LinkedIn</span></div>
@@ -761,6 +755,7 @@
       </div>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
   <script src="js/main.js"></script>
 </body>
